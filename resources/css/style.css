@@ -178,11 +178,54 @@ section {
 }
 	
 /* ICONS */
-	
-	.icon-big {
-		font-size: 350%;
-		display: block;
-		color: #e67e22;
-		margin-bottom: 10px;
-		text-align: center;
-	}
+
+.icon-big {
+	font-size: 350%;
+	display: block;
+	color: #e67e22;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+/* FEATURES */
+
+.section-features .long-copy {
+	 margin-bottom: 30px;
+}
+
+/* MEALS */
+
+.section-meals {
+	padding: 0;
+}
+
+.meals-showcase {
+	list-style: none;
+	width: 100%;
+}
+
+.meals-showcase li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.meal-photo {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.meal-photo img {
+	width: 100%;
+	height: auto;
+	opacity: 0.7;
+	transform: scale(1.15);
+	transition: 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+	transform: scale(1.03);
+	opacity: 1; 
+}
