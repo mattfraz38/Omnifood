@@ -74,8 +74,8 @@
 
   .main-nav { 
     float: left; 
-    margin-top: 35;
-    margin-left: 25;
+    margin-top: 35px;
+    margin-left: 25px;
   }
 
   .main-nav li { display: block; }
